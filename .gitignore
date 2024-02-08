@@ -10,6 +10,7 @@ build/sample
 build/sample_cc
 #whitelist
 !build/notes.txt
-.ccls-cache
+.ccls-cache/
+result
 
 
