@@ -7,8 +7,9 @@ build/*.cmake
 build/CMakeFiles
 build/sdk_core
 build/sample
-
+build/sample_cc
 #whitelist
 !build/notes.txt
+.ccls-cache
 
 

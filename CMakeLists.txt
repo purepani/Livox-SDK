@@ -4,6 +4,7 @@ project(livox_sdk)
 
 set(CMAKE_CXX_STANDARD 11)
 
+
 message(STATUS "main project dir: " ${PROJECT_SOURCE_DIR})
 
 if (CMAKE_CROSSCOMPILING)
