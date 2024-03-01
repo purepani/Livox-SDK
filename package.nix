@@ -19,11 +19,11 @@ clangStdenv.mkDerivation {
   #  make
   #'';
 
-  #installPhase = ''
+  postInstall = ''
   #  mkdir -p $out/bin
   #  mkdir -p $out/lib
   #  mv sdk_core/liblivox_sdk_static.a $out/lib
-  #  mv sample/ $out/bin
-  #  mv sample_cc/ $out/bin
-  #'';
+    mv sample/ $out/bin
+    mv sample_cc/ $out/bin
+  '';
 }
